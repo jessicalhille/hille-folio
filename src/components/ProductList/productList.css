@@ -1,0 +1,41 @@
+.list {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.list-texts {
+    width: 65%;
+}
+
+.list-title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.list-description {
+    margin: 20px 0px;
+}
+
+.list-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+    .list {
+        padding: 10px;
+    }
+
+    .list-texts {
+        width: 100%;
+    }
+
+    .list-description {
+        display: none;
+    }
+}
