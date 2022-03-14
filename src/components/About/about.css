@@ -85,19 +85,21 @@
         padding: 20px;
     }
 
-    .about-subtitle {
+    .about-description {
         margin-top: 20px;
+        font-size: 18px;
     }
     
     .skills {
         font-size: 30px;
         font-weight: 600;
-        margin-top: 20px;
+        margin-top: 40px;
         border-bottom: 5px solid rgb(116, 236, 116);
     }
     
     .skills-list {
         margin-top: 20px;
+        padding: 0 20px;
         text-align: center;
         display: flex;
         flex-wrap: wrap;

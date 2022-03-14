@@ -12,6 +12,7 @@
     height: 50%;
     display: flex;
     flex-direction: column;
+    width: 600px;
 }
 
 .intro-text {
@@ -19,6 +20,12 @@
     font-weight: 300;
     padding-top: 50px;
     padding-bottom: 10px;
+}
+
+.intro-text-small {
+    font-size: 22px;
+    font-weight: 200;
+    padding-top: 50px;
 }
 
 .intro-name {
@@ -59,7 +66,8 @@
 @media screen and (max-width: 768px) {
     .intro {
         flex-direction: column;
-        padding-top: 80px;
+        padding-top: 50px;
+        height: 100vh;
     }
 
     .intro-name {
@@ -82,5 +90,6 @@
         align-items: center;
         text-align: center;
         height: 100%;
+        width: 100%;
     }
 }
