@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/hille-folio/static/css/main.02f0d23b.css",
+    "main.js": "/hille-folio/static/js/main.4ab37477.js",
+    "static/js/787.f6322dbd.chunk.js": "/hille-folio/static/js/787.f6322dbd.chunk.js",
+    "static/media/6885578.png": "/hille-folio/static/media/6885578.406ae86e188a70de26ed.png",
+    "static/media/maxedout.png": "/hille-folio/static/media/maxedout.df583e380c9d941fc427.png",
+    "static/media/me.JPG": "/hille-folio/static/media/me.f7ef9ddd0168d99c51db.JPG",
+    "static/media/backyardbartender.png": "/hille-folio/static/media/backyardbartender.a8b026839e706791b924.png",
+    "static/media/linkedin.png": "/hille-folio/static/media/linkedin.a18fd0e384ab23935aea.png",
+    "static/media/techtalkblog.png": "/hille-folio/static/media/techtalkblog.a5f467139054d99bd51f.png",
+    "static/media/budgetbreeze.png": "/hille-folio/static/media/budgetbreeze.6be9deb2e15f209efe90.png",
+    "static/media/email.png": "/hille-folio/static/media/email.990a136dd2b00571e68f.png",
+    "static/media/emtracker.png": "/hille-folio/static/media/emtracker.edfab4793a0a6cbb02ad.png",
+    "static/media/notetaker.png": "/hille-folio/static/media/notetaker.2517b80fe9f3a2404d5e.png",
+    "static/media/sun.png": "/hille-folio/static/media/sun.f794832ad72b90c61eb7.png",
+    "static/media/moon.png": "/hille-folio/static/media/moon.3bea3d398a25611d421b.png",
+    "static/media/github.png": "/hille-folio/static/media/github.987334e9f782cc505f25.png",
+    "index.html": "/hille-folio/index.html",
+    "main.02f0d23b.css.map": "/hille-folio/static/css/main.02f0d23b.css.map",
+    "main.4ab37477.js.map": "/hille-folio/static/js/main.4ab37477.js.map",
+    "787.f6322dbd.chunk.js.map": "/hille-folio/static/js/787.f6322dbd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02f0d23b.css",
+    "static/js/main.4ab37477.js"
+  ]
+}
