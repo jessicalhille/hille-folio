@@ -16,18 +16,19 @@
 .about-right {
     flex: 1;
     padding-right: 40px;
+    flex-wrap: wrap;
 }
 
 .about-card.bg {
     position: absolute;
-    top: 50px;
-    left: 50px;
-    background-color:palegreen;
+    top: 140px;
+    left: 75px;
+    background-color:mediumaquamarine;
 }
 
 .about-card {
-    width: 70%;
-    height: 70vh;
+    width: 60%;
+    height: 60vh;
     border-radius: 30px;
     position: relative;
     overflow: hidden;
@@ -40,15 +41,31 @@
 }
 
 .about-title {
-    font-weight: 400;
+    font-size: 50px;
+    font-weight: 500;
 }
 
 .about-subtitle {
     margin: 20px 0px;
 }
 
-.about-description {
-    font-weight: 300;
+.skills {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.skills-list {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skills-button {
+    padding: 20px;
 }
 
 @media screen and (max-width:480px) {

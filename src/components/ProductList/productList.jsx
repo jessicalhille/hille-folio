@@ -6,14 +6,14 @@ const ProductList = () => {
     return (
         <div className="list">
             <div className="list-texts">
-                <h1 className="list-title">Create & Inspire</h1>
+                <h1 className="list-title">projects</h1>
                 <p className="list-description">
-                    texttexttexttexttexttexttexttext
+
                 </p>
             </div>
             <div className="list-list">
                 {products.map((item) => (
-                    <Product key={item.id} img={item.img} link={item.link} />
+                    <Product key={item.id} img={item.img} title={item.title} collab={item.collab} description={item.description} skills={item.skills} link={item.link} github={item.github} />
                 ))}
                 
             </div>

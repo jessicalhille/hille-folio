@@ -1,11 +1,13 @@
 import "./intro.css";
+import Stars from "../../images/6885578.png";
 
 const Intro = () => {
     return (
-        <div className="intro">
+        <div className="intro" style={{ backgroundImage: `url(${Stars})`}}>
             <div className="intro-text-wrapper">
-                <h2 className="intro-text">Hello my name is</h2>
+                <h2 className="intro-text">hi, my name is</h2>
                 <h1 className="intro-name">Jessica Hille</h1>
+                <h2 className="intro-text">and I'm a</h2>
                 <div className="intro-title">
                     <div className="intro-title-wrapper">
                         <div className="intro-item">Full-Stack Web Developer</div>
@@ -13,9 +15,6 @@ const Intro = () => {
                         <div className="intro-item">Musician</div>
                         <div className="intro-item">Content Creator</div>
                     </div>
-                </div>
-                <div className="intro-description">
-                    texttext
                 </div>
             </div>
         </div>
