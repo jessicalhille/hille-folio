@@ -1,18 +1,17 @@
 .list {
-    padding: 50px 50px;
+    padding: 20px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
-
-.list-texts {
-    width: 65%;
+    background-color: black;
+    color: white;
 }
 
 .list-title {
     font-size: 50px;
     font-weight: 600;
+    border-bottom: 5px solid rgb(116, 236, 116);
 }
 
 .list-description {
@@ -26,13 +25,13 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 980px) {
     .list {
-        padding: 10px;
+        padding: 20px;
     }
 
     .list-texts {
-        width: 100%;
+        width: 90%;
     }
 
     .list-description {

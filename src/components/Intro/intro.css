@@ -1,12 +1,14 @@
 .intro {
     display: flex;
     justify-content: center;
-    height: 100vh;
     background-size: cover;
+    background-color: black;
+    color: white;
+    padding-bottom: 250px;
 }
 
 .intro-text-wrapper {
-    padding: 250px 0px;
+    padding: 150px 0px;
     height: 50%;
     display: flex;
     flex-direction: column;
@@ -43,10 +45,10 @@
 }
 
 @keyframes move {
-    33%{
+    35%{
         transform: translateY(-50px);
     }
-    66%{
+    68%{
         transform: translateY(-100px);
     }
     100%{
@@ -54,9 +56,25 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .intro {
         flex-direction: column;
+        padding-top: 80px;
+    }
+
+    .intro-name {
+        font-size: 60px;
+    }
+    
+    .intro-text {
+        font-size: 30px;
+    }
+
+    .intro-item {
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .intro-text-wrapper {

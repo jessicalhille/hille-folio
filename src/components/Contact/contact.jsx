@@ -42,10 +42,10 @@ const Contact = () => {
                             <b>What's your story?</b> I would love to hear it! Please reach out by using the form below.
                         </p>
                         <form ref={formRef} onSubmit={handleSubmit}>
-                            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="your name" name="user_name" />
-                            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="subject" name="user_subject" />
-                            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="your email" name="user_email" />
-                            <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="message" name="message"></textarea>
+                            <input style={{backgroundColor: "#333"}} type="text" placeholder="your name" name="user_name" />
+                            <input style={{backgroundColor: "#333"}} type="text" placeholder="subject" name="user_subject" />
+                            <input style={{backgroundColor: "#333"}} type="text" placeholder="your email" name="user_email" />
+                            <textarea style={{backgroundColor: "#333"}} rows="5" placeholder="message" name="message"></textarea>
                             <button>get in touch</button>
                             {done && " -- Thank you! --"}
                         </form>

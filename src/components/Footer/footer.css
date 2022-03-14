@@ -1,9 +1,9 @@
 footer {
-    background: linear-gradient(90deg, lightgreen 0%, mediumaquamarine 100%);
-    height: 80px;
+    background: black;
     display: flex;
+    height: 50px;
     justify-content: center;
+    text-align: center;
     align-items: center;
-    font-size: 1.2rem;
-    color: black;
+    color: white;
 }

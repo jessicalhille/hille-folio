@@ -1,34 +1,18 @@
-import React, { Component } from 'react';
-import { MenuItems } from "./MenuItems";
-import "./Navbar.css";
+import React from 'react'
+import { NavLink, Link } from "react-router-dom";
 
-class Navbar extends Component {
-    state = { clicked: false };
-
-    handleClick = () => {
-        this.setState({ clicked: !this.state.clicked })
-    }
-
-    render() {
-        return(
-            <nav className="NavbarItems">
-                <div className="menu-icon" onClick={this.handleClick}>
-                    <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
-                </div>
-                <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
-                    {MenuItems.map((item, index) => {
-                        return (
-                            <li key={index}>
-                                <a className="nav-links" href={item.link}>
-                                    {item.title}
-                                </a>
-                            </li> 
-                        )
-                    })}
-                </ul>
-            </nav>
-        )
-    }
+export const Navbar = () => {
+    return (
+      <Navbar>
+          <NavLink>
+              <Link to="/about">about</Link>
+          </NavLink>
+          <NavLink>
+              <Link to="/portfolio">portfolio</Link>
+          </NavLink>
+          <NavLink>
+              <Link to="/contact">contact</Link>
+          </NavLink>
+      </Navbar>
+    )
 }
-
-export default Navbar;
