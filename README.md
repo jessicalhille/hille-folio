@@ -1,9 +1,8 @@
 # React Portfolio
+  ![made-with](https://img.shields.io/badge/Made%20with-HTML-1f425f.svg)
   ![made-with](https://img.shields.io/badge/Made%20with-CSS-1f425f.svg)
   ![made-with](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)
   ![made-with](https://img.shields.io/badge/Made%20with-React-1f425f.svg)
-  ![made-with](https://img.shields.io/badge/Made%20with-React-Router-1f425f.svg)
-  ![made-with](https://img.shields.io/badge/Made%20with-React-Bootstrap-1f425f.svg)
   ![GitHub issues](https://img.shields.io/github/issues/jessicalhille/hille-folio)
   ![GitHub branches](https://badgen.net/github/branches/jessicalhille/hille-folio)
   ![GitHub contributors](https://img.shields.io/github/contributors/jessicalhille/hille-folio)
@@ -15,19 +14,19 @@
   ##### Link to Deployed Application: https://jessicalhille.github.io/hille-folio/
 
   ## Table of Contents
-  * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [License](#license)
   * [Questions](#questions)
 
-  ## Installation
-  To use this application, please install:
-  * none
-
   ## Usage
-  none
+  This application features:
+  * A navbar created using react-router and react-bootstrap
+  * An about me page with description and skills
+  * A portfolio page with links to deployed application and github repo
+  * A contact page with a form created using Emailjs and social media links seen at the bottom of the page
+  * 
   ### Screenshot of Deployed Application
   ![Screenshot]()
 
