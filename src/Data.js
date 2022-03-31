@@ -4,10 +4,22 @@ import EmTracker from "./images/emtracker.png";
 import Budget from "./images/budgetbreeze.png";
 import Backyard from "./images/backyardbartender.png";
 import Notes from "./images/notetaker.png";
+import Boards from "./images/bayleesboards.png";
+import Thoughts from "./images/deepthoughts.png";
 
 export const products = [
     {
         id: 1,
+        img: Boards,
+        title: "Baylee's Boards",
+        collab: "Interactive MERN SPA Team Project",
+        description: "An e-commerce website for purchasing local, made-to-order charcuterie boards.",
+        skills: "Built with: MongoDB / Express.js / React / Node.js / GraphQL / Stripe",
+        link: "http://www.bayleesboards.com",
+        github: "https://github.com/Blakedoghyian/Baylees-Boards",
+    },
+    {
+        id: 2,
         img: MaxedOut,
         title: "Maxed Out",
         collab: "Full-Stack Team Project",
@@ -17,7 +29,7 @@ export const products = [
         github: "https://github.com/Travis2445/maxed-out",
     },
     {
-        id: 2,
+        id: 3,
         img: Tech,
         title: "Tech-Talk Blog",
         collab: "Solo Project",
@@ -27,7 +39,7 @@ export const products = [
         github: "https://github.com/jessicalhille/tech-talk"
     },
     {
-        id: 3,
+        id: 4,
         img: EmTracker,
         title: "The 'EM' Tracker",
         collab: "Solo Project",
@@ -37,7 +49,7 @@ export const products = [
         github: "https://github.com/jessicalhille/the-em-tracker"
     },
     {
-        id: 4,
+        id: 5,
         img: Backyard,
         title: "The Backyard Bartender",
         collab: "Front-End Team Project",
@@ -47,7 +59,17 @@ export const products = [
         github: "https://github.com/jessicalhille/backyard-bartender"
     },
     {
-        id: 5,
+        id: 6,
+        img: Thoughts,
+        title: "Deep Thoughts",
+        collab: "Solo Project",
+        description: "A social media application where users can create an account, post their thoughts for others to see, and interact with other users through these thoughts.",
+        skills: "Built with: MongoDB / Express.js / React / Node.js",
+        link: "https://arcane-earth-17619.herokuapp.com/",
+        github: "https://github.com/jessicalhille/deep-thoughts"
+    },
+    {
+        id: 7,
         img: Budget,
         title: "Budget Breeze",
         collab: "Solo Project",
@@ -57,7 +79,7 @@ export const products = [
         github: "https://github.com/jessicalhille/budget-breeze"
     },
     {
-        id: 6,
+        id: 8,
         img: Notes,
         title: "iNote Take Express",
         collab: "Solo Project",
