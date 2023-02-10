@@ -25,7 +25,7 @@ export const products = [
         collab: "Full-Stack Team Project",
         description: "A simple and easy to use at home fitness tracker where a user can log and view their workouts from the comfort of their own home.",
         skills: "Built with: Node.js / Express.js / Handlebars.js / MySQL / Sequelize",
-        link: "https://aqueous-headland-83808.herokuapp.com/",
+        link: "https://maxedout.herokuapp.com/",
         github: "https://github.com/Travis2445/maxed-out",
     },
     {
